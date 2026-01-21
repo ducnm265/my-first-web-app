@@ -1,0 +1,256 @@
+* {
+  font-family: "Charkra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  /* Tạo vùng content */
+  max-width: 1240px;
+  margin: auto;
+}
+
+.bg-lightgreen {
+  background-color: #15803d47;
+}
+
+.text-color-green {
+  color: #15803d;
+}
+
+.text-color-white {
+  color: #ffffff;
+}
+
+.text-color-black {
+  color: #000000;
+}
+
+.bg-green {
+  background-color: #15803d;
+}
+
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.px-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.py-3 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.border-bottom-3px {
+  border-bottom: 3px solid #15803d;
+}
+
+.border-radius-none {
+  border-radius: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding: 8px 4px;
+  cursor: pointer;
+}
+
+.header-logo img {
+  width: 36px;
+  height: 54px;
+  margin-right: 24px;
+}
+
+.nav-list {
+  padding: 0px;
+  /* bỏ kiểu list để không còn marker ở thẻ li */
+  list-style-type: none;
+}
+
+.nav-link {
+  /* thay đổi phần gạch chữ */
+  text-decoration: none;
+  padding: 12px 16px;
+  display: block;
+  border-radius: 4px;
+  margin: 0 16px;
+}
+
+.nav-link1 {
+  /* thay đổi phần gạch chữ */
+  text-decoration: none;
+  padding: 12px 16px;
+  display: block;
+  margin: 0 16px;
+}
+
+.nav-item:hover .nav-link {
+  background-color: #15803d47;
+  color: #15803d;
+}
+
+.dropdown-list {
+  color: #000000;
+  width: fit-content;
+  padding: 12px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  position: absolute;
+  display: none;
+  border: 1px solid #ddd;
+  margin: 10px 0 0 -12px;
+}
+
+.dropdown-wraper {
+  width: fit-content;
+  padding: 12px;
+  border-radius: 4px;
+  margin: 0 16px;
+}
+
+.dropdown-wraper button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dropdown-wraper:hover {
+  background-color: #15803d47;
+  color: #15803d;
+}
+
+.dropdown-wraper:hover .dropdown-list {
+  display: block;
+}
+
+.full-screen-img {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header-actions button {
+  align-items: center;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.login-button:hover {
+  background-color: rgb(231, 230, 230);
+}
+
+.buy-button:hover {
+  background-color: #166534;
+  color: #ffffff;
+}
+
+.title2 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding: 8px 4px;
+  justify-content: space-between;
+}
+
+.text-nro {
+  color: black;
+}
+
+.title2 img {
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
+
+.product {
+  box-sizing: border-box;
+}
+
+.product-card {
+  width: 100%;
+  border: 1px solid #00000020;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: 0.4s;
+}
+
+.product-card img {
+  width: 100%;
+  height: 300px;
+  transition: 0.4s;
+}
+
+.product-card:hover img {
+  transform: scale(1.1);
+}
+.product-card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.product-card-tittle {
+  padding: 16px;
+  list-style-type: none;
+}
+
+.product-card-tittle h3 {
+  display: block;
+  font-size: 20px;
+}
+
+.product-size li {
+  color: #555555;
+}
+
+.product-size b {
+  color: black;
+}
+
+.product-size .weight {
+  padding: 16px 0;
+}
+
+.product-size .content {
+  padding-bottom: 16px;
+}
+
+.buy {
+  align-items: center;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: #ffffff;
+}
+
+.buy:hover {
+  background-color: #166534;
+  color: #ffffff;
+}
