@@ -147,7 +147,8 @@
   display: block;
 }
 
-.full-screen-img {
+.full-screen-img img
+{
   width: 100vw;
   height: 100vh;
 }
